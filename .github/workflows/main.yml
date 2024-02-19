@@ -4,16 +4,16 @@ stages:
   -deploy
 
 build:
-  stage:build
+  stage: build
   script:
     - echo "Building project.."
     
 test:
-  stage:test
+  stage: test
   script:
     - echo "Running tests..."
 
 deploy:
-  stage:deploy
+  stage: deploy
   script:
     -echo "Deploying the project..."
